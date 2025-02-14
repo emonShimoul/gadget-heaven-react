@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.react-tabs__tab--selected {
+  border-radius: calc(infinity * 1px) !important;
+  border-color: none !important;
+  color: #9538e2 !important;
+}
