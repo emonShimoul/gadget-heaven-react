@@ -1,7 +1,6 @@
 import { toast } from "react-toastify";
 
 const getCartList = () => {
-  // cart
   const cartListStr = localStorage.getItem("cart");
   if (cartListStr) {
     const cartList = JSON.parse(cartListStr);
@@ -25,7 +24,6 @@ const addToCartList = (id) => {
 };
 
 const getStoredWishList = () => {
-  // wishlist
   const storedWishListStr = localStorage.getItem("wish-list");
   if (storedWishListStr) {
     const storedWishList = JSON.parse(storedWishListStr);
